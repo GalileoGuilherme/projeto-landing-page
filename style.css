@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(68.15deg, #000000 16.62%, #1b1b1b 85.61%);
 }
 
 .cabecalho {
@@ -62,7 +62,7 @@ body {
 
 }
 
-.conteudo-principal-escrito-subtitul {
+.conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -88,7 +88,8 @@ body {
 }
 
 .conteudo-principal-escrito-imagem {
-    height: 430px;
+    height: 320px;
+    margin-top: 40px;
 }
 
 .conteudo-secundario {
@@ -125,6 +126,7 @@ body {
 }
 
 .rodape-imagem {
+    width: 358px;
     height: 48px;
     display: block;
     margin: 0 auto;
