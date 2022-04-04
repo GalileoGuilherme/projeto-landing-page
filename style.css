@@ -29,6 +29,10 @@ body {
     gap: 32px;
 }
 
+.cabecalho-menu-item:hover {
+    color: yellow;
+}
+
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: #fff2e7;
@@ -88,8 +92,9 @@ body {
 }
 
 .conteudo-principal-escrito-imagem {
-    height: 320px;
-    margin-top: 40px;
+    width: 580px; 
+    border: none;
+    opacity: 0.6;
 }
 
 .conteudo-secundario {
